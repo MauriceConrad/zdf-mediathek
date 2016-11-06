@@ -1,5 +1,11 @@
 # ZDF Mediathek
 
+## Install
+
+```bash
+npm install zdf
+```
+
 Dieses Node.js Module bietet Methoden um die API der ZDF Mediathek zu nutzen um lediglich Informatioen über die Source Files zu erlangen sowie eine direkte Download-Möglichkeit für die HD Version, da diese sich aus mehreren .ts Dateien zusammensetzt.
 
 ## Wie funktioniert die Meditahek?
