@@ -77,7 +77,7 @@ Das zweite Array ist das Array "stream". Dieses enthält eine Liste aller .ts (1
 
 #### downloadStream
 
-Da eine Liste mit .ts Files allein wenig nützt, außer man hat Lust diese alle händisch zu downloaden und anschlißend zusammenzuschneiden, macht die Methode "downloadStream()" genau das. So wird neben einer URL, einer Callback Function auch ein Output-Path als Argument mitgegegeben.
+Da eine Liste mit .ts Files allein wenig nützt, außer man hat Lust diese alle händisch zu downloaden und anschließend zusammenzuschneiden, macht die Methode "downloadStream()" genau das. So wird neben einer URL, einer Callback Function auch ein Output-Path als Argument mitgegegeben.
 
 Die Callback Function wird nicht gefeuert, wenn die Datei fertig ist, sondern wenn ein Schnippsel erfolgreich gedownloadet wurde. Dementsprechend enthält es im Object "progress" die aktuelle Anzahl von "parts" (progress.parts) und die Gesamtanzahl solcher (progress.all)
 
